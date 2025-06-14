@@ -4,51 +4,49 @@
 
 A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. Features smooth animations, dark/light theme support, and particle effects.
 
-**Live Demo:** [View Portfolio](https://github.com/Stephen13-05/Stephen-Portfolio)
+**Live Demo:** [View Portfolio](https://stephenportfolio.firebaseapp.com/)
 
-## 🚀 Features
+## 🌟 Features
 
-- **Responsive Design**: Optimized for both mobile and desktop
-- **Dark/Light Theme**: Smooth animated theme transitions
-- **Interactive Animations**: Framer Motion for smooth page transitions
-- **Particle Effects**: Interactive particle background on homepage
-- **Modern UI**: Clean, professional design with hover effects
-- **SEO Optimized**: Proper meta tags and semantic HTML
+- **Modern UI/UX Design**
+  - Clean and professional interface
+  - Responsive layout for all devices
+  - Smooth animations and transitions
+  - Dark/Light theme support
 
-## 🛠️ Tech Stack
+- **Interactive Elements**
+  - Particle background effects
+  - Animated gradient orbs
+  - Floating sparkles
+  - 3D rotatable objects
+  - Click effects
+  - Toast notifications
+  - Tooltips
 
-- **Frontend**: React 18, TypeScript
-- **Styling**: Tailwind CSS, Custom CSS
-- **Animations**: Framer Motion
-- **Particles**: React TSParticles
-- **Icons**: Lucide React
-- **Build Tool**: Vite
-- **UI Components**: Custom shadcn/ui components
+- **Pages**
+  - Home: Welcome and introduction
+  - About: Personal information and education history
+  - Projects: Showcase of work and achievements
+  - Experience: Professional journey
+  - Skills: Technical expertise
+  - Contact: Get in touch
 
-## 📱 Pages
+## 🛠️ Technologies Used
 
-- **Home**: Hero section with particle background and CTA buttons
-- **About**: Personal information and education timeline
-- **Projects**: Interactive project cards with tech stack and links
-- **Experience**: Professional timeline with role descriptions
-- **Skills**: Skill categories with progress bars and certifications
-- **Contact**: Contact information, social links, and resume download
-
-## 🎨 Design Features
-
-- Smooth page transitions
-- Interactive hover effects
-- Animated skill progress bars
-- Timeline components for education/experience
-- Gradient backgrounds and glass effects
-- Responsive grid layouts
-- Custom theme system
+- React 18
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Query
+- Three.js
+- Vite
+- Firebase Hosting
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js 16+ 
+- Node.js (v14 or higher)
 - npm or yarn
 
 ### Installation
@@ -69,60 +67,46 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:8080](http://localhost:8080) in your browser
-
-### Build for Production
-
+4. Build for production:
 ```bash
 npm run build
 ```
 
-## 📁 Project Structure
+## 📦 Project Structure
 
 ```
 src/
-├── components/          # Reusable components
-│   ├── ui/             # shadcn/ui components
-│   ├── Layout.tsx      # Main layout wrapper
-│   ├── Navigation.tsx  # Navigation bar
-│   └── ParticleBackground.tsx
-├── contexts/           # React contexts
-│   └── ThemeContext.tsx
-├── pages/              # Page components
-│   ├── Home.tsx
-│   ├── About.tsx
-│   ├── Projects.tsx
-│   ├── Experience.tsx
-│   ├── Skills.tsx
-│   └── Contact.tsx
-└── styles/             # Global styles
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── styles/        # Global styles and Tailwind config
+├── assets/        # Images and other static files
+├── hooks/         # Custom React hooks
+├── utils/         # Utility functions
+└── types/         # TypeScript type definitions
 ```
 
-## 🎯 Customization
+## 🎨 Customization
 
-### Updating Personal Information
+- Colors and themes can be modified in `tailwind.config.js`
+- Animations can be adjusted in the respective component files
+- Content can be updated in the page components
 
-1. **Contact Information**: Update contact details in `src/pages/Contact.tsx`
-2. **Projects**: Modify project data in `src/pages/Projects.tsx`
-3. **Experience**: Update work experience in `src/pages/Experience.tsx`
-4. **Skills**: Modify skills and certifications in `src/pages/Skills.tsx`
-5. **About**: Update personal info and education in `src/pages/About.tsx`
+## 📱 Responsive Design
 
-### Theme Customization
+The website is fully responsive and optimized for:
+- Desktop
+- Tablet
+- Mobile devices
 
-- Colors and design tokens are defined in `src/index.css`
-- Tailwind configuration in `tailwind.config.ts`
-- Custom animations and utilities in the CSS files
+## 🔧 Development
 
-### Adding New Pages
-
-1. Create new component in `src/pages/`
-2. Add route to `src/App.tsx`
-3. Update navigation in `src/components/Navigation.tsx`
+- Run tests: `npm test`
+- Lint code: `npm run lint`
+- Format code: `npm run format`
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🤝 Contributing
 
@@ -133,3 +117,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Email: praveenstephend@gmail.com
 - GitHub: [github.com/Stephen13-05](https://github.com/Stephen13-05)
 - LinkedIn: [linkedin.com/in/praveen-stephen-d](https://linkedin.com/in/praveen-stephen-d)
+
+---
+
+Made with ❤️ by Praveen Stephen D
