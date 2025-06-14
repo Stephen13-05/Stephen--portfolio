@@ -1,4 +1,4 @@
-# Praveen Stephen D - Portfolio Website
+# Stephen's Portfolio Website
 
 [![GitHub Repo](https://img.shields.io/github/stars/Stephen13-05/Stephen-Portfolio?style=social)](https://github.com/Stephen13-05/Stephen-Portfolio)
 
