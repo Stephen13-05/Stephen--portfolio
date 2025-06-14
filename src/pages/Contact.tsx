@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, Download, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Download, Github, Linkedin, Sparkles } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/input';
@@ -108,9 +108,78 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen py-20 px-4 sm:px-6 lg:px-8">
+    <div className="relative min-h-screen py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
       <ParticleBackground />
-      <div className="max-w-6xl mx-auto">
+      
+      {/* Animated background elements */}
+      <motion.div
+        animate={{
+          rotate: [0, 180, 360],
+          scale: [1, 1.2, 1],
+        }}
+        transition={{
+          duration: 25,
+          repeat: Infinity,
+        }}
+        className="absolute top-0 right-0 w-[600px] h-[600px] bg-gradient-to-br from-primary/5 to-purple-500/5 rounded-full blur-3xl"
+      />
+      
+      <motion.div
+        animate={{
+          rotate: [360, 180, 0],
+          scale: [1, 0.8, 1.1, 1],
+        }}
+        transition={{
+          duration: 30,
+          repeat: Infinity,
+        }}
+        className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-blue-500/5 to-primary/5 rounded-full blur-3xl"
+      />
+
+      {/* Floating sparkles */}
+      <motion.div
+        animate={{
+          scale: [1, 1.2, 1],
+          opacity: [0.7, 1, 0.7],
+        }}
+        transition={{
+          duration: 2,
+          repeat: Infinity,
+        }}
+        className="absolute top-32 right-20 text-primary"
+      >
+        <Sparkles className="h-6 w-6" />
+      </motion.div>
+      <motion.div
+        animate={{
+          scale: [1, 1.2, 1],
+          opacity: [0.7, 1, 0.7],
+        }}
+        transition={{
+          duration: 2,
+          repeat: Infinity,
+          delay: 1,
+        }}
+        className="absolute bottom-32 left-20 text-primary"
+      >
+        <Sparkles className="h-4 w-4" />
+      </motion.div>
+      <motion.div
+        animate={{
+          scale: [1, 1.2, 1],
+          opacity: [0.7, 1, 0.7],
+        }}
+        transition={{
+          duration: 2,
+          repeat: Infinity,
+          delay: 0.5,
+        }}
+        className="absolute top-1/2 right-32 text-primary"
+      >
+        <Sparkles className="h-5 w-5" />
+      </motion.div>
+
+      <div className="max-w-6xl mx-auto relative z-10">
         <motion.div
           variants={containerVariants}
           initial="hidden"

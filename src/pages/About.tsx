@@ -11,7 +11,7 @@ const About = () => {
       degree: "Bachelor of Computer Science and Business Systems",
       institution: "R.M.K Engineering College",
       period: "2023 - 2027(Expected)",
-      CGPA: "8.14 (3rd Semester)",
+      CGPA: "8.34 (4th Semester)",
       location: "Chennai, Tamil Nadu",
       description: "Focused on software engineering, data structures, and algorithms, Marketing concepts, Data Science,Machine Learning  with Honour in Business Analytics",
       achievements: ["Actively Participated Club and grabed prizes", "Actively Participated in Hackathons and grabed prizes"]

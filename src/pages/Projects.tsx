@@ -4,7 +4,6 @@ import { ExternalLink, Github, Star, Zap, Layers, Sparkles } from 'lucide-react'
 import { Button } from '../components/ui/button';
 import ParticleBackground from '../components/ParticleBackground';
 import { Link } from 'react-router-dom';
-import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 
 const Projects = () => {
@@ -83,21 +82,6 @@ const Projects = () => {
   ];
 
   const form = useRef();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs.sendForm(
-      'service_jfrvf4a',
-      'template_0u5g33r',
-      form.current,
-      'BcJsAHzhb5e4rm3IQ'
-    )
-    .then((result) => {
-        alert('Message sent successfully!');
-    }, (error) => {
-        alert('Failed to send message, please try again.');
-    });
-  };
 
   return (
     <div className="relative min-h-screen py-20 overflow-hidden">
