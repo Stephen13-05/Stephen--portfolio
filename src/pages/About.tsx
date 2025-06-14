@@ -308,6 +308,99 @@ const About = () => {
               </motion.div>
             ))}
           </div>
+
+          <div className="space-y-6">
+            {/* Bachelor Degree */}
+            <div className="flex flex-col md:flex-row gap-2 md:gap-6 p-4 rounded-lg border border-border bg-background/80">
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-primary">Bachelor of Computer Science and Business Systems</h3>
+                <p className="text-muted-foreground">R.M.K Engineering College</p>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                  <p className="text-sm text-muted-foreground">2023 - 2027 (Expected)</p>
+                  <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+                </div>
+                <p className="text-sm text-muted-foreground mt-1"><b>CGPA:</b> 8.34 (4th Semester)</p>
+                <p className="text-sm text-muted-foreground mt-2">Focused on software engineering, data structures, and algorithms, Marketing concepts, Data Science, Machine Learning with Honour in Business Analytics</p>
+                <div className="mt-2">
+                  <span className="font-semibold">Key Achievements:</span>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground">
+                    <li>Actively Participated Club and grabbed prizes</li>
+                    <li>Actively Participated in Hackathons and grabbed prizes</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Higher Secondary */}
+            <div className="flex flex-col md:flex-row gap-2 md:gap-6 p-4 rounded-lg border border-border bg-background/80">
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-primary">Higher Secondary Education</h3>
+                <p className="text-muted-foreground">St. Joseph's Higher Secondary School</p>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                  <p className="text-sm text-muted-foreground">2019 - 2021</p>
+                  <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+                </div>
+                <p className="text-sm text-muted-foreground mt-1"><b>Percentage:</b> 92.5%</p>
+                <div className="mt-2">
+                  <span className="font-semibold">Key Achievements:</span>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground">
+                    <li>School First in Computer Science</li>
+                    <li>District Level Science Exhibition Winner</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* SSLC */}
+            <div className="flex flex-col md:flex-row gap-2 md:gap-6 p-4 rounded-lg border border-border bg-background/80">
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold text-primary">Secondary Education</h3>
+                <p className="text-muted-foreground">St. Joseph's Higher Secondary School</p>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                  <p className="text-sm text-muted-foreground">2018 - 2019</p>
+                  <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+                </div>
+                <p className="text-sm text-muted-foreground mt-1"><b>Percentage:</b> 89.2%</p>
+                <div className="mt-2">
+                  <span className="font-semibold">Achievements:</span>
+                  <ul className="list-disc list-inside text-sm text-muted-foreground">
+                    <li>School First in Mathematics</li>
+                    <li>Best Student Award</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <div>
+                <h3 className="text-lg font-semibold text-primary">Full Stack Developer</h3>
+                <p className="text-muted-foreground">Freelance</p>
+                <p className="text-sm text-muted-foreground">2023 - Present</p>
+                <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground text-justify">
+                  Developed and maintained web applications using React.js, Node.js, and MongoDB. Implemented responsive designs and RESTful APIs. Collaborated with clients to deliver high-quality solutions.
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+              <div>
+                <h3 className="text-lg font-semibold text-primary">Web Development Intern</h3>
+                <p className="text-muted-foreground">Tech Solutions Inc.</p>
+                <p className="text-sm text-muted-foreground">2022 - 2023</p>
+                <p className="text-sm text-muted-foreground">Chennai, Tamil Nadu</p>
+              </div>
+              <div>
+                <p className="text-sm text-muted-foreground text-justify">
+                  Assisted in developing and maintaining company websites. Worked with HTML, CSS, and JavaScript. Gained experience in responsive design and cross-browser compatibility.
+                </p>
+              </div>
+            </div>
+          </div>
         </motion.div>
       </div>
     </div>

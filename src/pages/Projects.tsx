@@ -46,7 +46,7 @@ const Projects = () => {
         'Built with React.js, Three.js, and TypeScript for a modern, responsive design.'
       ],
       technologies: ['React.js', 'Three.js', 'TypeScript'],
-      liveUrl: 'https://github.com/Stephen13-05/Stephen-Portfolio',
+      liveUrl: 'https://stephenportfolio.web.app/',
       githubUrl: 'https://github.com/Stephen13-05/Stephen-Portfolio',
       featured: false,
       color: 'from-purple-400 via-pink-400 to-indigo-600',
